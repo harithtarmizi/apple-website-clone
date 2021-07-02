@@ -10,15 +10,14 @@
 a {
 	margin: 15px;
 	color: #2997ff;
-	font-size: 14px; 
+	font-size: 19px; 
 	font-weight: 400; /*from official website*/
 	text-decoration: none;
 	font-family: sans-serif;
 }
 
 a:hover {
-	/* text-decoration: underline; */
-	color: whitesmoke;
+	 text-decoration: underline; 
 }
 
 a i {
@@ -54,10 +53,9 @@ ul {
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
-	font-size: 14px; /*from official website*/
 	background: rgba(0, 0, 0, 0.8); /* 0.0(fully transparent) 1.0(fully opaque)*/
 	backdrop-filter: blur(6px); /* https://css-tricks.com/backdrop-filter-effect-with-css/ */
-	cursor: pointer;
+	cursor: pointer; /* https://www.w3schools.com/cssref/playit.asp?filename=playcss_cursor&preval=pointer */
 }
 
 ul li {
@@ -67,4 +65,42 @@ ul li {
 ul li a {
 	color: #9f9f9f;
 	margin: 0;
+	font-size: 14px; /*from official website*/
+}
+
+ul li a:hover {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.watch {
+	padding-top: 100px;
+	text-align: center;
+	background: #000;
+}
+
+.watch h1 {
+	margin-left: -20px;
+	color: #fff;
+	font-weight: 600;
+	font-family: arial;
+	letter-spacing: 0.03em;
+}
+
+.watch p {
+	color: #bd1c26;
+	font-weight: 700;
+	font-family: arial;
+	letter-spacing: 0.12em;
+	font-size: 14px;
+
+}
+
+.watch h3 {
+	color: #fff;
+	margin-top: 12px;
+	font-size: 21px;
+	font-weight: 400;
+	font-family: sans-serif;
+	letter-spacing: 0.02em;
 }
