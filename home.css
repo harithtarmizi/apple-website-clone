@@ -1,0 +1,70 @@
+/* General */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	z-index: 1;
+}
+
+a {
+	margin: 15px;
+	color: #2997ff;
+	font-size: 14px; 
+	font-weight: 400; /*from official website*/
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+a:hover {
+	/* text-decoration: underline; */
+	color: whitesmoke;
+}
+
+a i {
+	font-size: 15px;
+}
+
+h5 {
+	color: #bf4800;
+	opacity: 0.8;
+}
+
+/* Styling */
+.navbar {
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+
+#navi {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: 99;
+}
+
+ul {
+	z-index: 99;
+	width: 100%;
+	padding: 15px 20px;
+	display: -webkit-flex; /* property support -webkit- chrome and safari*/
+	display: -ms-flex; /* property support -ms- microsoft edge*/
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	font-size: 14px; /*from official website*/
+	background: rgba(0, 0, 0, 0.8); /* 0.0(fully transparent) 1.0(fully opaque)*/
+	backdrop-filter: blur(6px); /* https://css-tricks.com/backdrop-filter-effect-with-css/ */
+	cursor: pointer;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	color: #9f9f9f;
+	margin: 0;
+}
