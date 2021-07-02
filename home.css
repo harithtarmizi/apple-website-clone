@@ -109,7 +109,7 @@ ul li a:hover {
 	margin-top: 22px;
 }
 
-.firstpic {
+.watchpic {
 	margin-top: 40px;
 }
 
@@ -162,4 +162,62 @@ ul li a:hover {
 .se {
 	margin-top: 10px;
 	opacity: 0.9;
+}
+
+/* Section 3 */
+.papa {
+	margin: 20px 10px; /* clockwise direction */
+	display: grid; /* https://www.w3schools.com/css/css_grid.asp */
+	grid-template-columns: repeat(2,1fr); /* Specifies the size of the columns, and how many columns in a grid layout */
+	grid-template-rows: repeat(3,1fr);
+	gap: 0.7em; /* https://teamtreehouse.com/community/grid-gap-properties-obsolete */
+	
+}
+
+.child1, .child2, .child3, .child4, .child5, .child6 {
+	background: #fbfbfd;
+	position: relative;
+}
+
+.child2, .child3, .child4, .child5, .child6 {
+	text-align: center;
+	
+}
+
+.child1 {
+	background: linear-gradient(238deg, #ffca6b 0, #e6976c 44%, #ee597d 100%);
+}
+
+.child5 {
+	background: url('child5.jpg');
+}
+
+.child6 {
+	background: url('child6.jpg');
+}
+
+.child5, .child6 {
+	background-position: top center;
+	background-size: cover; /* resize backgorunf to cover entire container*/
+}
+
+/* Child1 */
+.heading h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #4f2318;
+}
+
+.heading a {
+	position: absolute;
+	top: 120px;
+	left: 170px;
+}
+
+.child1 img {
+	position: absolute;
+	bottom: 40px;
+	left: 120px;
+	width: 220px;
 }
