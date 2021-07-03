@@ -168,8 +168,8 @@ ul li a:hover {
 .papa {
 	margin: 20px 10px; /* clockwise direction */
 	display: grid; /* https://www.w3schools.com/css/css_grid.asp */
-	grid-template-columns: repeat(2,1fr); /* Specifies the size of the columns, and how many columns in a grid layout */
-	grid-template-rows: repeat(3,1fr);
+	grid-template-columns: repeat(2, 1fr); /* Specifies the size of the columns, and how many columns in a grid layout */
+	grid-template-rows: repeat(3, 1fr);
 	gap: 0.7em; /* https://teamtreehouse.com/community/grid-gap-properties-obsolete */
 	
 }
@@ -198,7 +198,7 @@ ul li a:hover {
 
 .child5, .child6 {
 	background-position: top center;
-	background-size: cover; /* resize backgorunf to cover entire container*/
+	background-size: cover; /* resize background to cover entire container*/
 }
 
 /* Child1 */
@@ -216,8 +216,84 @@ ul li a:hover {
 }
 
 .child1 img {
-	position: absolute;
+	position: ;
 	bottom: 40px;
 	left: 120px;
 	width: 220px;
 }
+
+/* Child2 */
+.child2 p {
+	/* margin-top: 15px; */
+	font-size: 18px;
+	opacity: 0.9;
+}
+
+.child2 img {
+	margin-top: 60px;
+}
+
+/* Child3 */
+.wrap {
+	margin-top: -220px;
+}
+
+.wrap h1 {
+	margin-top: -10px;
+	font-family: cursive;
+	font-size: 65px;
+}
+
+.wrap h3 {
+	font-size: 22px;
+	opacity: 0.9;
+}
+
+/* Child4 */
+.child4 {
+	background: #f2f2f2;
+}
+
+.child4 h1 {
+	opacity: 0.9;
+	margin-top: 40px;
+}
+
+.child4 p {
+	margin-top: 10px;
+	font-size: 22px;
+	opacity: 0.9;
+}
+
+.child4 img {
+	margin-top: 30px;
+}
+
+/* Child5 */
+.child5 h1, .child5 p, .child5 a {
+	color: #fff!important;
+}
+
+.child5 h1 {
+	margin-top: 330px;
+	margin-bottom: 10px;
+}
+
+.child5 p {
+	font-size: 22px;
+}
+
+/* Child6 */
+.child6 h1 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	color: #fff!important;
+}
+
+.end {
+	margin: 30px 12px;
+	color: #888;
+	font-size: 13px;
+}
+
+
